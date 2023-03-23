@@ -131,7 +131,7 @@ padding-top: 60px;
 h2{
   position: absolute;
   left: 40%;
-  top:126%;
+  top:116%;
   margin-top: 1px;
 }
 .container-m{
@@ -194,11 +194,9 @@ ul{
     transition: all 3s ease-out;
     cursor: pointer;
 }
-h3{
   h3{
     text-decoration: none;
     position: absolute;
   bottom:-75%;
     left: 43%;
-}
 }
