@@ -131,7 +131,7 @@ padding-top: 60px;
 h2{
   position: absolute;
   left: 40%;
-  top:116%;
+  top:102%;
   margin-top: 1px;
 }
 .container-m{
@@ -197,6 +197,6 @@ ul{
   h3{
     text-decoration: none;
     position: absolute;
-  bottom:-75%;
+  bottom:-55%;
     left: 43%;
 }
