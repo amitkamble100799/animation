@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: yellow;
+}
+.container{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+
+}
+h1{
+    position: absolute;
+    top:10px;
+    left: 40%;
+}
+.container1{
+display: flex;
+justify-content: center;
+padding-top: 60px;
+}
+.bx1{
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 30px 40px;
+    background-color:dodgerblue;
+    animation: nothing 3s infinite alternate;
+   
+}
+@keyframes nothing{
+    0%{
+        transform:skewX(40deg);
+    }
+    100%{
+        transform: skewX(-40deg);
+    }
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.bx2{
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 30px 40px;
+    background-color:darkgrey;
+    animation: second 3s infinite alternate;
+}
+@keyframes second {
+    0%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.bx3{
+    justify-content: center;
+    margin: 30px 40px;
+    background-color:cadetblue;
+  height: 100px;
+  width: 100px;
+  animation: third 3s infinite alternate;
+}
+@keyframes third {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }  
+}
+.container4{
+    display: flex;
+    justify-content: center;
+}
+.bx4{
+    justify-content: center;
+    margin: 30px 40px;
+    height: 100px;
+    width: 100px;
+}
+.bx5{
+    background-color: cadetblue;
+    animation: l 3s infinite alternate;
+   
+}
+@keyframes l {
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1,1.3);
+    }
+    
+}
+.bx6{
+    background-color: brown;
+    animation: l2 3s infinite alternate;
+}
+@keyframes l2 {
+    0%{
+        transform: scaleY(1,1);
+    }
+    100%{
+        transform: scale(2,1);
+    }
+    
+}
+.bx7{
+    background-color:yellowgreen;
+    animation: l3 3s infinite alternate;
+}
+@keyframes l3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h2{
+  position: absolute;
+  left: 40%;
+  top:96%;
+  margin-top: 1px;
+}
+.container-m{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin: 30px 40px;
+    background-color: green;
+    
+}
+ul{
+    list-style-type:number;
+    justify-content: center;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.box1{
+    transition: all 3s;
+    cursor: pointer;
+}
+.box1:hover{
+    width: 400px;
+}
+.box2{
+    transition: all 3s;
+    cursor: pointer;
+}
+.box2:hover{
+    width: 400px;
+    height: 400px;
+    
+}
+.box3{
+    transition: all 3s linear;
+    cursor: pointer;
+}
+.box:hover{
+    width: 400px;
+}
+.box4{
+    transition: all 3s ease;
+    cursor: pointer;
+}
+.box5{
+    transition: all 3s ease-in;
+    cursor: pointer;
+}
+.box6{
+    transition: all 3s ease-in-out;
+    cursor: pointer;
+}
+.box7{
+    transition: all 3s ease-out;
+    cursor: pointer;
+}
+h3{
+    text-decoration: none;
+    position: absolute;
+    top:140%;
+    left: 43%;
+
+}
